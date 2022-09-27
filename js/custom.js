@@ -14,14 +14,14 @@ $(function () {
   }
 });
 
-$(document).ready(function () {
-  $(".eye").click(function () {
-    $(".eye img").fadeIn();
-    $("#testDiv2").fadeIn("slow"); // fadeIn slow 적용
-    $("#testDiv3").fadeIn(6000); // 시간설정 6초
-  });
-});
-$(window).scroll(function () {
-  var h = $(window).scrollTop();
-  console.timeLog(window);
-});
+// $(document).ready(function () {
+//   $(".eye").click(function () {
+//     $(".eye img").fadeIn();
+//     $("#testDiv2").fadeIn("slow"); // fadeIn slow 적용
+//     $("#testDiv3").fadeIn(6000); // 시간설정 6초
+//   });
+// });
+// $(window).scroll(function () {
+//   var h = $(window).scrollTop();
+//   console.timeLog(window);
+// });

@@ -1,4 +1,0 @@
-var script = document.createElement('script');
-script.src = 'https://api.mintweb.kr/gift/common2.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
